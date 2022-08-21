@@ -1,0 +1,59 @@
+body{
+    background-color:#FFD1C2;
+    display:flex;
+    justify-content:center;
+}
+
+h1{
+    display: flex;
+    justify-content:center;
+    font-size:10vh;
+}
+
+.cards-area{
+    display:flex;
+    justify-content: center;
+    margin-top: 15vh;
+    gap:30px;
+    font-size:10vh;
+}
+
+.yes{
+    color:#0000ff;
+}
+
+.no1,.no2,.no3,.no4,.no5{
+    color:#ff0000;
+}
+
+.no2,.no3,.no4,.no5{
+   display: none;
+}
+
+.no2{
+    margin:15vh
+}
+
+.no3{
+    margin-top:50px;
+}
+
+.no4{
+    
+    margin-top:100vh
+}
+
+.no5 {
+    margin-left:2vh;
+}
+
+.none {
+    display:none;
+}
+
+a{
+    cursor:pointer;
+    text-decoration:none !important;
+    color: blue;
+}
+
